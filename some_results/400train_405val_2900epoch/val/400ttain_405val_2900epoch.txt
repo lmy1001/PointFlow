@@ -1,0 +1,23 @@
+Number of trainable parameters of Point CNF: 927513
+Number of trainable parameters of Latent CNF: 134145
+Resume Path:checkpoints/gen/shapenet15k-cateairplane-seqback/checkpoint-2899.pt
+Total number of data:400
+Min number of points: (train)2048 (test)2048
+Total number of data:405
+Min number of points: (train)2048 (test)2048
+Generation sample size:torch.Size([405, 2048, 3]) reference size: torch.Size([405, 2048, 3])
+{'1-NN-CD-acc': 0.869135856628418,
+ '1-NN-CD-acc_f': 0.8493826985359192,
+ '1-NN-CD-acc_t': 0.8888888955116272,
+ '1-NN-EMD-acc': 0.819753110408783,
+ '1-NN-EMD-acc_f': 0.7580246925354004,
+ '1-NN-EMD-acc_t': 0.8814814686775208,
+ 'lgan_cov-CD': 0.3679012358188629,
+ 'lgan_cov-EMD': 0.4395061731338501,
+ 'lgan_mmd-CD': 0.0002511143102310598,
+ 'lgan_mmd-EMD': 0.03394869342446327,
+ 'lgan_mmd_smp-CD': 0.0008671940304338932,
+ 'lgan_mmd_smp-EMD': 0.05194861441850662}
+JSD:0.08630677023789879
+
+Chamfer Distance: 0.0031
