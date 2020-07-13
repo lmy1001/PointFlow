@@ -1,0 +1,26 @@
+Test results: with 2832 training data and 808 test data in airplane.
+Use pertained model to do test
+
+Number of trainable parameters of Point CNF: 927513
+Number of trainable parameters of Latent CNF: 134145
+Resume Path:pretrained_models/gen/airplane/checkpoint.pt
+Total number of data:2832
+Min number of points: (train)2048 (test)2048
+Total number of data:808
+Min number of points: (train)2048 (test)2048
+Generation sample size:torch.Size([808, 2048, 3]) reference size: torch.Size([808, 2048, 3])
+{'1-NN-CD-acc': 0.6707920432090759,
+ '1-NN-CD-acc_f': 0.8168317079544067,
+ '1-NN-CD-acc_t': 0.5247524976730347,
+ '1-NN-EMD-acc': 0.6986386179924011,
+ '1-NN-EMD-acc_f': 0.7388613820075989,
+ '1-NN-EMD-acc_t': 0.6584158539772034,
+ 'lgan_cov-CD': 0.3923267424106598,
+ 'lgan_cov-EMD':0.4022277295589447,
+ 'lgan_mmd-CD': 0.0009438966517336667,
+ 'lgan_mmd-EMD': 0.053858011960983276,
+ 'lgan_mmd_smp-CD': 0.0005051551852375269,
+ 'lgan_mmd_smp-EMD': 0.043282534927129745}
+JSD:0.05163973286326318
+
+Chamfer Distance: 0.0062
